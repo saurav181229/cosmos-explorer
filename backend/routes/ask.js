@@ -4,6 +4,8 @@ const router = express.Router();
 
 router.post('/', async (req, res) => {
   const userMessage = req.body.message;
+  console.log(process.env.OPENROUTER_API_KEY)
+  test = 'k-or-v1-8ff02c09c82fc3d1bf64f7b5ac307c58801b1a18aea4bc21bc6c483336d3fcb1'
   if (!userMessage) return res.status(400).json({ error: 'Message required' });
 
   try {
@@ -26,6 +28,7 @@ router.post('/', async (req, res) => {
     );
 
     const reply = aiResponse.data.choices[0].message.content;
+    console.log(reply)
     res.json({ reply });
   } catch (error) {
     console.error('❌ OpenRouter AI error:', error.message);
