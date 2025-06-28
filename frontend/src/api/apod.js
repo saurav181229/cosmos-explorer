@@ -1,10 +1,12 @@
 import axios from 'axios';
+import { BASE_URL } from './config';
 
 
 export const fetchApod = async () => {
-  console.log("")
-  const response = await axios.get('http://localhost:3000/api/apod');
-  console.log(response.da)
+
+  
+  const response = await axios.get(`${BASE_URL}/api/apod`);
+
   return response.data;
 
 };
