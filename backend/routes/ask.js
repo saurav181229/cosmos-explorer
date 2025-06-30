@@ -12,7 +12,7 @@ router.post('/', async (req, res) => {
     const aiResponse = await axios.post(
       'https://openrouter.ai/api/v1/chat/completions',
       {
-        model: 'meta-llama/llama-4-maverick:free',  // or try 'meta-llama/llama-3-8b-instruct'
+        model: 'mistralai/mistral-small-3.2-24b-instruct:free',  // or try 'meta-llama/llama-3-8b-instruct'
         messages: [
           { role: 'system', content: 'You are a space assistant who explains NASA data and helps users explore the universe.' },
           { role: 'user', content: userMessage }
