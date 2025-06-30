@@ -15,35 +15,35 @@ Cosmos Explorer is a full-stack web application that brings NASA’s open data t
 ### 🖼️ Astronomy Picture of the Day (APOD)
 Fetches NASA's daily image or video with contextual information about celestial phenomena.
 
-![APOD](screenshots/Screenshot-APOD.png)
+![APOD](screenshot/Screenshot-APOD.png)
 
 ---
 
 ### 🤖 Ask the Cosmos
 An AI-powered chat assistant that lets users ask questions about space, planets, missions, and astronomical concepts. This uses AI language models to return insightful, educational content based on queries.
 
-![Ask the Cosmos](screenshots/Screenshot-AskCosmos.png)
+![Ask the Cosmos](screenshot/Screenshot-AskCosmos.png)
 
 ---
 
 ### 🚀 Mars Rover Photo Explorer
 Allows users to search and view real images captured by NASA's Mars rovers on a specific date and camera.
 
-![Mars Rover](screenshots/Screenshot-Mars.png)
+![Mars Rover](screenshot/Screenshot-Mars.png)
 
 ---
 
 ### ☄️ Near Earth Object (NEO) Dashboard
 Visualizes asteroid and object data near Earth using a bar chart for a selected date range (max 7 days). Displays velocity in km/h for comparative analysis.
 
-![NEO Dashboard](screenshots/Screenshot-NEO.png)
+![NEO Dashboard](screenshot/Screenshot-NEO.png)
 
 ---
 
 ### 🔍 NASA Image Search
 Users can search NASA’s image archive by keyword and browse high-resolution space photos.
 
-![Image Search](screenshots/Screenshot-ImageSearch.png)
+![Image Search](screenshot/Screenshot-ImageSearch.png)
 
 ---
 
