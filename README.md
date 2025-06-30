@@ -6,7 +6,7 @@ Cosmos Explorer is a full-stack web application that brings NASA’s open data t
 
 ## 🌐 Live Demo
 
-[https://cosmos-explorer.onrender.com](https://cosmos-explorer.onrender.com)
+[https://cosmos-explorer]( https://cosmos-explorer-sepia.vercel.app/)
 
 ---
 
