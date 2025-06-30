@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 node_modules/
 
 /build
+=======
+node_modules
+package-lock.json
+.env
+>>>>>>> b28c52dd6ecbae722bae68a9397c89dcc34a3cfa

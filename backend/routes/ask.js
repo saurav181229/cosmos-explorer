@@ -21,7 +21,7 @@ router.post('/', async (req, res) => {
       {
         headers: {
           'Authorization': `Bearer ${process.env.OPENROUTER_API_KEY}`,
-          'HTTP-Referer': 'http://localhost:3001', // required
+          'HTTP-Referer': 'http://localhost:3001', 
           'Content-Type': 'application/json',
         }
       }

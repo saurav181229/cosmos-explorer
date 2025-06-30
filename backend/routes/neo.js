@@ -20,7 +20,7 @@ router.get('/', async (req, res) => {
     const response = await axios.get(url, { params });
     const nearEarthObjects = response.data.near_earth_objects;
 
-    // Flatten into an array of all objects with date, name, diameter, and velocity
+   
     const parsedData = Object.entries(nearEarthObjects).flatMap(([date, objs]) =>
       objs.map(obj => ({
         name: obj.name,
