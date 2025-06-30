@@ -43,7 +43,7 @@ Visualizes asteroid and object data near Earth using a bar chart for a selected 
 ### 🔍 NASA Image Search
 Users can search NASA’s image archive by keyword and browse high-resolution space photos.
 
-![Image Search](screenshot/Screenshot-ImageSearch.png)
+![Image Search](screenshot/creenshot-ImageSearch.png)
 
 ---
 
